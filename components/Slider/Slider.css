@@ -1,0 +1,37 @@
+body{
+  background-color: #edefeb;
+}
+
+.carousel-image {
+  max-width: 90%;
+  height: auto;
+  /* margin-left: 200px; */
+}
+
+.slider-carousel {
+  max-width: 90%; /* Default maximum width for larger screens */
+  margin: 0 auto; /* Center the carousel horizontally */
+}
+.imaeg{
+  max-width: 90%;
+  width: 4000px;
+  height: 1000px;
+  margin-left:5% ;
+  border-radius: 10px;
+}
+.slider-carousel {
+  max-width: 90%; /* Reduce maximum width of the carousel for smaller screens */
+}
+@media (max-width: 4000px) {
+  .carousel-image,.imaeg{
+    max-width: 90%; /* Reduce maximum width of images for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    max-height: 900px; /* Set maximum height for images on smaller screens */
+  }
+  
+  .slider-carousel {
+    max-width: 90%; /* Reduce maximum width of the carousel for smaller screens */
+  }
+}
+
+

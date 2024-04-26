@@ -1,0 +1,43 @@
+.vikram-petrol-pump {
+  
+  background-color: #21295c; /* Dark blue background */
+  padding: 4rem 0; /* Add padding top and bottom */
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  color: #fff; /* White text color */
+  background-color: #21295c;
+  font-size: 24px;
+  margin-left: 12%;
+  margin-right: 12%;
+  line-height: 1.4rem;
+}
+
+.image-container {
+  text-align: center; /* Center the image */
+  margin-bottom: 2rem; /* Add space between image and content */
+}
+
+.image2 {
+  max-width: 200px; /* Set max width for the image */
+}
+
+.lead {
+  
+  width: auto;
+  
+  font-family: "Outfit", sans-serif;
+font-weight:normal;
+font-size: 20px;
+text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Display rows vertically for smaller screens */
+  }
+}

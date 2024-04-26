@@ -1,0 +1,152 @@
+.back {
+  background-color: #21295c;
+}
+
+.autoservices {
+  margin-top: 10%;
+  margin-left: -5%;
+}
+
+.post {
+  margin-left: 20px;
+}
+
+@media screen and (max-width:1405px) {
+  .list1ss{
+    margin-top: 0 !important;
+    margin-left: 75% !important;
+  }
+  
+}
+@media screen and (max-width:1080px) {
+  .list1ss{
+    margin-top: 0% !important;
+    margin-left: -20% !important;
+  }
+  .con{
+    margin-left: 10%!important;
+  }
+  
+}
+@media screen and (max-width:772px) {
+  .col{
+    margin-top: 0%;
+  }
+  .autoservices{
+    margin-left: auto;
+    display: none;
+    margin-top: -1%;
+    margin-bottom: -10%;
+  }
+  .list1ss{
+    margin-top: 5%;
+    margin-left: 30% !important;
+  }
+  .con{
+    margin-left: 10%!important;
+  }
+  .nav-link{
+    padding: 1px;
+}
+  .list1{
+    margin-top: 1%!important;
+    margin-bottom: 0%;
+  }
+  .uscont{
+    display: none;
+  }
+  
+}
+@media screen and (max-width: 400px) {
+  .listz {
+      margin-left: 0;
+      margin-top: 10%;
+  }
+
+  .list1 {
+      margin-left: -25% !important;
+      margin-top: 5%;
+  }
+
+  .vpp {
+      display: block;
+      text-align: center;
+  }
+
+  .mx-5 {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
+
+  .list1ss {
+      margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .listz {
+      text-align: center;
+      margin-left: 0;
+      margin-top: 10%;
+  }
+
+  .list1 {
+      text-align: center;
+      margin-left: 0;
+      margin-top: 5%;
+  }
+}
+
+.listz {
+  margin-left: -30%;
+  margin-top: 10%;
+}
+
+.list1 {
+  margin-left: -30%;
+  margin-top: 5%;
+}
+
+.list-unstyled {
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.col {
+  margin-left: 10%;
+}
+
+.ma-id {
+  text-decoration: none;
+}
+
+.uscont {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.vpp {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  text-align: center;
+}
+
+.list-unstyleds2ss {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Added to align icons to the left */
+}
+
+.list1ss {
+  margin-left: 0;
+  margin-top: 75%;
+}

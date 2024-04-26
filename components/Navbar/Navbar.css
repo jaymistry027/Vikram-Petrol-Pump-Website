@@ -1,0 +1,206 @@
+.nav1
+{
+    background-color: #21295C;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    height:80px;
+    text-align: center;
+    
+}
+
+/* .navbar{
+    /* --bs-navbar-padding-y: 0; */
+/*} */
+
+.nav2
+{
+
+    padding-right: 0px;
+    padding-top: 0px;
+}
+
+ .navtext
+{
+    text-align: center;
+    color: #F8FCFD;
+    font-size: x-large;
+    text-decoration: none;
+    
+} 
+
+.image
+{
+    height:55px;
+    width:55px;
+}
+
+.img1
+{
+    padding-left: 20px;
+}
+/* 
+.list
+{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+} */
+
+h4{
+    text-align: center;
+}
+
+.socialIcons1
+{
+    /* display: flex; */
+    /* justify-content: end; */
+    /* align-items: end; */
+    color: white;
+}
+
+.headx
+{
+    margin-left: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+/* @media (max-width: 576px) {
+    .navext {
+      padding: 10px; 
+    }
+  } */
+
+  
+  @media (max-width: 340px) {
+    .nav1 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .navtext {
+      font-size: 0.8rem; /* Adjust the font size as needed */
+      margin-top: 10px; /* Add some margin to the top */
+      text-align: center; /* Center the text */
+    }
+  
+    .image {
+      margin-bottom: 10px; /* Add some margin to the bottom */
+      width: 40px; /* Reduce the width of the image */
+    height: auto; 
+    }
+  }
+  
+
+  @media (max-width: 343px) {
+    .nav1 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .navtext {
+      font-size: 0.8rem; /* Adjust the font size as needed */
+      margin-top: 10px; /* Add some margin to the top */
+      text-align: center; /* Center the text */
+    }
+  
+    .image {
+      margin-bottom: 10px; /* Add some margin to the bottom */
+      width: 40px;
+      height:40px; /* Reduce the width of the image */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  
+  @media (min-width: 250px) and (max-width: 342px) {
+   
+    .navtext {
+        font-size: 0.7rem; /* Adjust the font size as needed */
+        margin-top: 5px; /* Add some margin to the top */
+        margin-bottom: 5px !important;
+    }
+  
+    .image {
+      margin-bottom: 10px;
+      width: 40px;
+      height: auto;
+    }
+  }
+  
+
+  
+  
+  @media (max-width: 100px) {
+    .navtext {
+      font-size: 0.4rem; /* Adjust the font size as needed */
+      margin-top: 2px; /* Add some margin to the top */
+    }
+  
+    .image {
+      width: 20px;
+      height:20px; /* Further reduce the width of the image */
+    }
+  }
+  
+  @media (min-width: 200px) and (max-width: 250px) {
+   
+    .navtext {
+        font-size: 0.7rem; /* Adjust the font size as needed */
+        margin-top: 5px; /* Add some margin to the top */
+        margin-bottom: 5px !important;
+    }
+  
+    .image {
+      margin-bottom: 10px;
+      width: 40px;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 200px) and (max-width: 225px) {
+   
+    .navtext {
+        font-size: 0.5rem; /* Adjust the font size as needed */
+        margin-top: 5px; /* Add some margin to the top */
+        margin-bottom: 5px !important;
+    }
+  
+    .image {
+      margin-bottom: 10px;
+      width: 40px;
+      height: auto;
+    }
+  }
+  
+  @media (min-width: 150px) and (max-width: 200px) {
+   
+    .navtext {
+        font-size: 0.4rem; /* Adjust the font size as needed */
+        margin-top: 5px; /* Add some margin to the top */
+        margin-bottom: 5px !important;
+    }
+  
+    .image {
+      margin-bottom: 5px;
+      width: 25px;
+      height: auto;
+    }
+  }
+
+  @media (min-width: 100px) and (max-width: 150px) {
+   
+    .navtext {
+        font-size: 0.4rem; /* Adjust the font size as needed */
+        margin-top: 5px; /* Add some margin to the top */
+        margin-bottom: 5px !important;
+    }
+  
+    .image {
+      margin-bottom: 5px;
+      width: 25px;
+      height: auto;
+    }
+  }

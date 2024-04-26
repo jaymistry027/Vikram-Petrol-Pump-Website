@@ -1,0 +1,161 @@
+body{
+  background-color: #edefeb;
+}
+
+.slider-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  background-color: #edefeb;
+}
+
+.btn-arrow {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #333;
+}
+.card {
+  width: 200px;
+  margin: 10px;
+  padding-right: 25px;
+}
+.mycard{
+  padding-right: 25px;
+}
+.quotes {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  /* background-color: white; */
+}
+
+.quote-text {
+  width: 600px;
+  height: 120px;
+  color: #0E1E35;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.quotetext{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.title {
+  text-align: center;
+  padding-bottom: 1rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imga {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-arrow:focus {
+  outline: none;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.card-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.my-card {
+  width: 350px;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 25px;
+  padding-top: 10px;
+  scroll-snap-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.my-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 768px) {
+  .slider-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+  }
+
+  .my-card {
+    width: 80%;
+  }
+
+  .btn-arrow {
+    display: none;
+  }
+}
+.left-arrow{
+  margin-right: 2.5%;
+}
+/* Add this CSS code */
+.btn-arrow.left-arrow {
+  margin-right: 2.5%;
+}
+
+@media screen and (max-width: 768px) {
+  .left-arrow {
+    margin-right: 0;
+    margin-bottom: 10px; /* Adjust as needed */
+    transform: rotate(270deg);
+  }
+
+  .right-arrow {
+    margin-left: 0;
+    margin-top: 10px; /* Adjust as needed */
+    transform: rotate(270deg);
+  }
+}
+
+
+/* Adjust the container to make room for the right arrow */
+.slider-container {
+  position: relative; /* Make it relative for absolute positioning */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  background-color: #edefeb;
+}

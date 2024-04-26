@@ -1,0 +1,45 @@
+/* TermsAndConditions.css */
+*{
+    font-size: 20px;
+    font-weight: 600;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 0 20px; /* Adds spacing from both sides */
+    text-align: justify; /* Justifies the content */
+}
+
+.text-center{
+    font-size: 20px !important;
+}
+
+.heading {
+    text-align: center; /* Centers the heading */
+    font-size: 30px !important;
+}
+
+.listItem {
+    margin-bottom: 10px;
+}
+
+.listItem strong {
+    font-weight: bold; /* Makes the part before colon bold */
+}
+
+.listItem h2 {
+    font-weight: bold; /* Makes the titles bold */
+}
+
+.listItem ul {
+    margin-top: 10px; /* Adds spacing between list items and nested list */
+}
+
+.contactInfo {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.acknowledgement {
+    font-style: italic; /* Makes the acknowledgement italic */
+}

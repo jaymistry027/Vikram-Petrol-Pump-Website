@@ -1,0 +1,54 @@
+* {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .outer-container{
+    background-color: #edefeb;
+  }
+
+  .lorem {
+    margin-left: 12%;
+    margin-right: 12%;
+    font-family: "Outfit", sans-serif;
+  font-weight:normal;
+  font-size: 24px;
+  text-align: justify;
+  margin-bottom: 0px;
+  line-height: 1.4rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cid-u7xq3j8s7a .mbr-section-title {
+    color: #260a30;
+}
+
+.display-2 {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  word-break: break-word;
+    word-wrap: break-word;
+    font-weight: 550;
+}
+
+.mb-4 {
+  margin-bottom: 0.5rem !important;
+  text-align: center;
+}
+
+.mbr-section-title {
+  font-style: normal;
+}
+
+strong {
+  font-weight: bold;
+}
+  
